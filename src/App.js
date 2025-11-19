@@ -1,21 +1,20 @@
 import Home from "./pages/index.jsx";
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.js";
 import AboutPage from "./pages/AboutPage.jsx";
 import PortfolioPage from "./pages/PortfolioPage.jsx";
 
-function App(){
+function App() {
   return (
-    <BrowserRouter  basename="/MyPortfolio">
-    <Navbar />
+    <HashRouter>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/About" element={<AboutPage/>}/>
-        <Route path="/Portfolio" element={<PortfolioPage />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<AboutPage />} />
+        <Route path="/Portfolio" element={<PortfolioPage />} />
       </Routes>
-    </BrowserRouter>
-  )
+    </HashRouter>
+  );
 }
 
 export default App;
