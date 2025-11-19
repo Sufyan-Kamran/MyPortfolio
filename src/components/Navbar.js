@@ -45,32 +45,32 @@ export default function Navbar() {
                 </ul>
               </li>
               <li>
-                <a href="#AboutSection" className="nav-link active">
+                <a href="#AboutSection" className="nav-link ">
                   About
                 </a>
               </li>
               <li>
-                <a href="#WorkSection" className="nav-link active">
+                <a href="#WorkSection" className="nav-link ">
                   Work Experience
                 </a>
               </li>
               <li>
-                <a href="#ServicesSection" className="nav-link active">
+                <a href="#ServicesSection" className="nav-link ">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#SkillsSection" className="nav-link active">
+                <a href="#SkillsSection" className="nav-link ">
                   Skills Score
                 </a>
               </li>
               <li>
-                <a href="#OtherSkills" className="nav-link active">
+                <a href="#OtherSkills" className="nav-link ">
                   Programming Skills
                 </a>
               </li>
               <li>
-                <a href="#FrameWork" className="nav-link active">
+                <a href="#FrameWork" className="nav-link ">
                   FrameWorks
                 </a>
               </li>
@@ -80,7 +80,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#FooterSection" rel="noreferrer" className="nav-link active">
+                <a href="#FooterSection" rel="noreferrer" className="nav-link ">
                   Footer
                 </a>
               </li>
@@ -97,7 +97,7 @@ export default function Navbar() {
             </a> */}
 
             <button
-            style={{border:"None"}}
+              style={{ border: "None" }}
               className="bg-white burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block"
               type="button"
               onClick={() => {
