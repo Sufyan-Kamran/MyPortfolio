@@ -1,0 +1,41 @@
+name: Deploy React to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]   # or "master" if your branch is master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4   # NEW VERSION
+
+      - name: Setup Node
+        uses: actions/setup-node@v4   # NEW VERSION
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3   # NEW VERSION
+        with:
+          path: ./build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4   # NEW VERSION
