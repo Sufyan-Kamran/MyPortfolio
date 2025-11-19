@@ -25,7 +25,7 @@ export default function ServicesSection() {
                 <div className="gsap-reveal-hero mb-3">
                   <span className="icon-service">
                     <img
-                      src="images/svg/service-icon-4.svg"
+                      src="%PUBLIC_URL%/images/svg/service-icon-4.svg"
                       alt=""
                       className="img-fluid"
                     />
@@ -42,7 +42,7 @@ export default function ServicesSection() {
                 <div className="gsap-reveal-hero mb-3">
                   <span className="icon-service">
                     <img
-                      src="images/svg/service-icon-6.svg"
+                      src="%PUBLIC_URL%/images/svg/service-icon-6.svg"
                       alt=""
                       className="img-fluid"
                     />
@@ -60,7 +60,7 @@ export default function ServicesSection() {
                 <div className="gsap-reveal-hero mb-3">
                   <span className="icon-service">
                     <img
-                      src="images/svg/service-icon-7.svg"
+                      src="%PUBLIC_URL%/images/svg/service-icon-7.svg"
                       alt=""
                       className="img-fluid"
                     />
@@ -78,7 +78,7 @@ export default function ServicesSection() {
                 <div className="gsap-reveal-hero mb-3">
                   <span className="icon-service">
                     <img
-                      src="images/svg/service-icon-8.svg"
+                      src="%PUBLIC_URL%/images/svg/service-icon-8.svg"
                       alt=""
                       className="img-fluid"
                     />
@@ -96,7 +96,7 @@ export default function ServicesSection() {
                 <div className="gsap-reveal-hero mb-3">
                   <span className="icon-service">
                     <img
-                      src="images/svg/service-icon-1.svg"
+                      src="%PUBLIC_URL%/images/svg/service-icon-1.svg"
                       alt=""
                       className="img-fluid"
                     />
@@ -114,7 +114,7 @@ export default function ServicesSection() {
                 <div className="gsap-reveal-hero mb-3">
                   <span className="icon-service">
                     <img
-                      src="images/svg/service-icon-5.svg"
+                      src="%PUBLIC_URL%/images/svg/service-icon-5.svg"
                       alt=""
                       className="img-fluid"
                     />
