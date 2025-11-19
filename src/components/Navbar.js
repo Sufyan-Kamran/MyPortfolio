@@ -86,7 +86,7 @@ export default function Navbar() {
               </li>
             </ul>
 
-            <a
+            {/* <a
               href="#"
               rel="noreferrer"
               className="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block"
@@ -94,7 +94,20 @@ export default function Navbar() {
               data-target="#main-navbar"
             >
               <span></span>
-            </a>
+            </a> */}
+
+            <button
+            style={{border:"None"}}
+              className="bg-white burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block"
+              type="button"
+              onClick={() => {
+                // optional: toggle mobile menu here if needed
+                const menu = document.querySelector(".site-mobile-menu");
+                menu.classList.toggle("open"); // or whatever your toggle logic is
+              }}
+            >
+              <span></span>
+            </button>
           </div>
         </div>
       </nav>
