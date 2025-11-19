@@ -18,73 +18,73 @@ export default function PortfolioSection() {
           <div className="portfolio-wrapper">
             <div id="posts" className="row">
               <ImageComponent
-                src="%PUBLIC_URL%/images/luxelane1.jpg"
+                src="images/luxelane1.jpg"
                 heading="LuxeLane Shop"
                 paragraph="Ecommerce Website"
               />
               <ImageComponent
-                src="%PUBLIC_URL%/images/apple.png"
+                src="images/apple.png"
                 heading="Music Website"
                 paragraph="Web Design"
               />
               <ImageComponent
-                src="%PUBLIC_URL%/images/fashion.jpg"
+                src="images/fashion.jpg"
                 heading="Clothing Website"
                 paragraph="Ecommerce Website"
               />
               <ImageComponent
-                src="%PUBLIC_URL%/images/business.jpg"
+                src="images/business.jpg"
                 heading="Business Portfolio"
                 paragraph="Web Design"
               />
 
               <ImageComponent
-                src="%PUBLIC_URL%/images/sound.png"
+                src="images/sound.png"
                 heading="Apple Watch"
                 paragraph="Concept Web Design"
               />
 
               <ImageComponent
-                src="%PUBLIC_URL%/images/Blogging.png"
+                src="images/Blogging.png"
                 heading="Blogging Website"
                 paragraph="Concept Web Design"
               />
 
               <ImageComponent
-                src="%PUBLIC_URL%/images/interior.jpg"
+                src="images/interior.jpg"
                 heading="Interior Decor Web"
                 paragraph="Ecommerce Website"
               />
               <ImageComponent
-                src="%PUBLIC_URL%/images/tesla.PNG"
+                src="images/tesla.PNG"
                 heading="Car Showroom Website"
                 paragraph="Concept Web Design"
               />
 
               <ImageComponent
-                src="%PUBLIC_URL%/images/spacex.png"
+                src="images/spacex.png"
                 heading="LuxeLane"
                 paragraph="sorr"
               />
               <ImageComponent
-                src="%PUBLIC_URL%/images/GAME2.png"
+                src="images/GAME2.png"
                 heading="LuxeLane"
                 paragraph="sorr"
               />
               <ImageComponent
-                src="%PUBLIC_URL%/images/Portfolio.PNG"
+                src="images/Portfolio.PNG"
                 heading="Portfolio Design"
                 paragraph="Static Website"
               />
 
               <ImageComponent
-                src="%PUBLIC_URL%/images/game.jpg"
+                src="images/game.jpg"
                 heading="Gaming Store"
                 paragraph="Ecommerce Concept Web"
               />
 
               <ImageComponent
-                src="%PUBLIC_URL%/images/apple1.png"
+                src="images/apple1.png"
                 heading="Apple Watch"
                 paragraph="Concept Web Design"
               />

@@ -14,7 +14,7 @@ export default function ImageComponent({ src, heading, paragraph }) {
               <p>{paragraph}</p>
             </div>
           </div>
-          <img src={src} className="lazyload img-fluid h-100" alt="Images" />
+          <img src={src} className="lazyload img-fluid h-100" alt="" />
         </a>
       </div>
     </>
