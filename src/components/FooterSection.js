@@ -1,24 +1,20 @@
 import { Link } from "react-router-dom";
 
-export default function FooterSection() {
+export default function FooterSection(props) {
   return (
     <>
-      <div className="site-footer">
+      <div className="site-footer" id={props.id}>
         <div className="container">
           <div className="row">
             <div className="col-lg-3">
               <div className="widget">
                 <h3>Home</h3>
                 <ul className="list-unstyled float-left links">
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link href="/About">About us</Link>
-                  </li>
-                  <li>
-                    <Link href="/Portfolio">Projects</Link>
-                  </li>
+                  <li><a href="#HeroSection" >Home</a></li>
+                  <li><a href="#PortfolioSection" >Portfolio</a></li>
+                  <li><a href="#AboutSection">About</a></li>
+                  <li><a href="#WorkSection">Work Experience</a></li>
+                  <li><a href="#ServicesSection">Services</a></li>
                 </ul>
               </div>{" "}
               {/* /.widget */}
@@ -28,19 +24,19 @@ export default function FooterSection() {
                 <h3>Projects</h3>
                 <ul className="list-unstyled float-left links">
                   <li>
-                    <a href="/Portfolio">HTML5</a>
+                    <a href="#PortfolioSection">HTML5</a>
                   </li>
                   <li>
-                    <a href="/Portfolio">Python</a>
+                    <a href="#Projects">Python</a>
                   </li>
                   <li>
-                    <a href="/Portfolio">Django</a>
+                    <a href="#Projects">Django</a>
                   </li>
                   <li>
-                    <a href="/Portfolio">ReactJs</a>
+                    <a href="#Projects">ReactJs</a>
                   </li>
                   <li>
-                    <a href="/Portfolio">API</a>
+                    <a href="#Projects">API</a>
                   </li>
                 </ul>
               </div>{" "}

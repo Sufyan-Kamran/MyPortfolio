@@ -7,23 +7,25 @@ import OtherSkills from "../components/OtherSkills";
 import WorkSection from "../components/WorkSection";
 import FooterSection from "../components/FooterSection";
 import FrameWork from "../components/FrameWork";
+import Projects from "../components/Projects";
 
-function Home(){
+import Navbar from "../components/Navbar.js";
+
+function Home() {
   return (
     <>
-    <HeroSection />
-    <PortfolioSection/>
-    <AboutSection/>
-    <WorkSection />
-    <ServicesSection />
-    
-    <SkillsSection />
-    <OtherSkills />
-    <FrameWork />
-    
-    <FooterSection/>
+      <HeroSection id="HeroSection" />
+      <PortfolioSection id="PortfolioSection" />
+      <Projects id="Projects" />
+      <AboutSection id="AboutSection" />
+      <WorkSection id="WorkSection" />
+      <ServicesSection id="ServicesSection" />
+      <SkillsSection id="SkillsSection" />
+      <OtherSkills id="OtherSkills" />
+      <FrameWork id="FrameWork" />
+      <FooterSection id="FooterSection" />
     </>
-  )
+  );
 }
 
 export default Home;

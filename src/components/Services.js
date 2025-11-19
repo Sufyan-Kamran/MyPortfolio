@@ -1,7 +1,7 @@
-export default function ServicesSection() {
+export default function ServicesSection(props) {
   return (
     <>
-      <div className="untree_co-section pb-0" id="services-section">
+      <div className="untree_co-section pb-0" id={props.id}>
         <div className="container">
           <div className="row mb-4">
             <div className="col-lg-7 text-center mx-auto">

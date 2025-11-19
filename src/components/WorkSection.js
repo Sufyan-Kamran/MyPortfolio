@@ -1,9 +1,9 @@
 import SkillsCard from "./SkillsCard";
 
-export default function WorkSection() {
+export default function WorkSection(props) {
   return (
     <>
-      <div className="untree_co-section" id="contact-section">
+      <div className="untree_co-section" id={props.id}>
         <div className="container">
           <div className="row mb-5">
             <div className="col-lg-7 text-center mx-auto">

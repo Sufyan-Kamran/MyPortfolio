@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-export default function AboutSection() {
+export default function AboutSection(props) {
   return (
     <>
-      <div className="untree_co-section pb-0x" id="about-section">
+      <div className="untree_co-section pb-0x" id={props.id}>
         <div className="container bg-light">
           <div className="row justify-content-center mb-3">
             <div className="col-lg-7 mx-auto text-center author-wrap">
@@ -39,13 +39,13 @@ export default function AboutSection() {
               </p>
 
               <p className="gsap-reveal-hero text-center">
-                <Link
+                <a
                   href="https://www.linkedin.com/in/sufyan-kamran/"
                   target="_blank"
                   className="btn btn-outline-black"
                 >
                   Hire Me at Linkedin
-                </Link>
+                </a>
               </p>
             </div>
           </div>

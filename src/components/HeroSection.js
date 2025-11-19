@@ -1,7 +1,7 @@
 export default function HeroSection(props) {
   return (
     <>
-      <div className="untree_co-section pb-0" id="home-section">
+      <div className="untree_co-section pb-0" id={props.id} >
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-md-7">

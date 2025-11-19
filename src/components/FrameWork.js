@@ -1,9 +1,9 @@
 import SkillsCard from "./SkillsCard";
 
-export default function FrameWork() {
+export default function FrameWork(props) {
   return (
     <>
-      <div className="untree_co-section testimonial-wrap">
+      <div className="untree_co-section testimonial-wrap" id={props.id}>
         <div className="container">
           <div className="row mb-5">
             <div className="col-lg-7 text-center mx-auto">

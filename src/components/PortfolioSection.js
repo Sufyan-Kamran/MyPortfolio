@@ -1,11 +1,11 @@
 import ImageComponent from "./ImageComponent";
 
-export default function PortfolioSection() {
+export default function PortfolioSection(props) {
   return (
     <>
       <div
         className="untree_co-section untree_co-section-4 pb-0"
-        id="portfolio-section"
+        id={props.id}
       >
         <div className="container">
           <div className="relative">

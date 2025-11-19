@@ -1,7 +1,7 @@
-export default function SkillsSection() {
+export default function SkillsSection(props) {
   return (
     <>
-      <div className="untree_co-section pb-0">
+      <div className="untree_co-section pb-0" id={props.id}>
         <div className="container">
           <div className="row mb-4">
             <div className="col-lg-7 text-center mx-auto">
