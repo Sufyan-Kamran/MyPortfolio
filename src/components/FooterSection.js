@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function FooterSection() {
   return (
     <>
@@ -9,13 +11,13 @@ export default function FooterSection() {
                 <h3>Home</h3>
                 <ul className="list-unstyled float-left links">
                   <li>
-                    <a href="#Home">Home</a>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <a href="/About">About us</a>
+                    <Link href="/About">About us</Link>
                   </li>
                   <li>
-                    <a href="/Portfolio">Projects</a>
+                    <Link href="/Portfolio">Projects</Link>
                   </li>
                 </ul>
               </div>{" "}

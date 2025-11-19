@@ -9,9 +9,9 @@ function App() {
     <HashRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<AboutPage />} />
-        <Route path="/Portfolio" element={<PortfolioPage />} />
+        <Route path="" element={<Home />} />
+        <Route path="About" element={<AboutPage />} />
+        <Route path="Portfolio" element={<PortfolioPage />} />
       </Routes>
     </HashRouter>
   );

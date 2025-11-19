@@ -15,31 +15,31 @@ export default function Navbar() {
       <nav className="site-nav dark mb-5 site-navbar-target">
         <div className="container">
           <div className="site-navigation">
-            <Link to="/" className="logo m-0">
+            <Link to="" className="logo m-0">
               Portfolio<span className="text-primary">.</span>
             </Link>
 
             <ul className="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
               <li>
-                <Link to="/" className="nav-link">
+                <Link to="" className="nav-link">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/About" className="nav-link ">
+                <Link to="About" className="nav-link ">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/" className="nav-link ">
+                <Link to="Portfolio" className="nav-link ">
                   Portfolio
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/" className="nav-link">
                   Contact
                 </Link>
-              </li>
+              </li> */}
             </ul>
 
             <button className="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block bg-white border-0">
