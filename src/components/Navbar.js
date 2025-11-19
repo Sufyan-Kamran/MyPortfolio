@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function Navbar() {
   return (
     <>
@@ -12,72 +10,94 @@ export default function Navbar() {
         <div className="site-mobile-menu-body"></div>
       </div>
 
-       <nav class="site-nav dark mb-5 site-navbar-target">
-    <div class="container">
-      <div class="site-navigation">
-        <a href="index.html" class="logo m-0">Minimal<span class="text-primary">.</span></a>
-        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
-          <li><a href="#HeroSection" class="nav-link active">Home</a></li>
-          <li class="has-children">
-            <a href="#PortfolioSection" class="nav-link">Portfolio</a>
-            <ul class="dropdown">
-              <li><a href="#PortfolioSection" class="nav-link">Web Projects</a></li>
-              <li><a href="#Projects" class="nav-link">Python Projects</a></li>
-              <li><a href="#Projects" class="nav-link">React Js Projects</a></li>
-            </ul>
-          </li>
-          <li><a href="#AboutSection" class="nav-link active">About</a></li>
-          <li><a href="#WorkSection" class="nav-link active">Work Experience</a></li>
-          <li><a href="#ServicesSection" class="nav-link active">Services</a></li>
-          <li><a href="#SkillsSection" class="nav-link active">Skills Score</a></li>
-          <li><a href="#OtherSkills" class="nav-link active">Programming Skills</a></li>
-          <li><a href="#FrameWork" class="nav-link active">FrameWorks</a></li>
-          <li><a href="#FooterSection" class="nav-link">Contact</a></li>
-          <li><a href="#FooterSection" class="nav-link active">Footer</a></li>          
-        </ul>
-
-        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
-          <span></span>
-        </a>
-
-      </div>
-    </div>
-  </nav>
-
-      {/* <nav className="site-nav dark mb-5 site-navbar-target">
+      <nav className="site-nav dark mb-5 site-navbar-target">
         <div className="container">
           <div className="site-navigation">
-            <a  className="logo m-0">
-              Portfolio<span className="text-primary">.</span>
+            <a href="/" className="logo m-0">
+              Minimal<span className="text-primary">.</span>
             </a>
-
             <ul className="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
               <li>
-                <button style={{background:"None"}} className="nav- " onClick={() => scrollToSection(refs.portfolioRef)}>Home</button>
-              </li>link
-              <li>
-                <Link to="/About" className="nav-link ">
-                  About
-                </Link>
+                <a href="#HeroSection" className="nav-link active">
+                  Home
+                </a>
               </li>
-              <li>
-                <Link to="/" className="nav-link ">
+              <li className="has-children">
+                <a href="#PortfolioSection" className="nav-link">
                   Portfolio
-                </Link>
+                </a>
+                <ul className="dropdown">
+                  <li>
+                    <a href="#PortfolioSection" className="nav-link">
+                      Web Projects
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#Projects" className="nav-link">
+                      Python Projects
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#Projects" className="nav-link">
+                      React Js Projects
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li>
-                <Link to="/" className="nav-link">
+                <a href="#AboutSection" className="nav-link active">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#WorkSection" className="nav-link active">
+                  Work Experience
+                </a>
+              </li>
+              <li>
+                <a href="#ServicesSection" className="nav-link active">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#SkillsSection" className="nav-link active">
+                  Skills Score
+                </a>
+              </li>
+              <li>
+                <a href="#OtherSkills" className="nav-link active">
+                  Programming Skills
+                </a>
+              </li>
+              <li>
+                <a href="#FrameWork" className="nav-link active">
+                  FrameWorks
+                </a>
+              </li>
+              <li>
+                <a href="#FooterSection" className="nav-link">
                   Contact
-                </Link>
+                </a>
+              </li>
+              <li>
+                <a href="#FooterSection" rel="noreferrer" className="nav-link active">
+                  Footer
+                </a>
               </li>
             </ul>
 
-            <button className="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block bg-white border-0">
+            <a
+              href="#"
+              rel="noreferrer"
+              className="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block"
+              data-toggle="collapse"
+              data-target="#main-navbar"
+            >
               <span></span>
-            </button>
+            </a>
           </div>
         </div>
-      </nav> */}
+      </nav>
     </>
   );
 }

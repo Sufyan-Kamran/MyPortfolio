@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function FooterSection(props) {
   return (
     <>
@@ -10,11 +8,21 @@ export default function FooterSection(props) {
               <div className="widget">
                 <h3>Home</h3>
                 <ul className="list-unstyled float-left links">
-                  <li><a href="#HeroSection" >Home</a></li>
-                  <li><a href="#PortfolioSection" >Portfolio</a></li>
-                  <li><a href="#AboutSection">About</a></li>
-                  <li><a href="#WorkSection">Work Experience</a></li>
-                  <li><a href="#ServicesSection">Services</a></li>
+                  <li>
+                    <a href="#HeroSection">Home</a>
+                  </li>
+                  <li>
+                    <a href="#PortfolioSection">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#AboutSection">About</a>
+                  </li>
+                  <li>
+                    <a href="#WorkSection">Work Experience</a>
+                  </li>
+                  <li>
+                    <a href="#ServicesSection">Services</a>
+                  </li>
                 </ul>
               </div>{" "}
               {/* /.widget */}
@@ -46,7 +54,7 @@ export default function FooterSection(props) {
               <div className="widget">
                 <h3>Services</h3>
                 <ul className="list-unstyled float-left links">
-                  <li>API Developement & Integration  </li>
+                  <li>API Developement & Integration </li>
                   <li>Automation</li>
                   <li>Backend developement</li>
                   <li>Bot Developement</li>
@@ -65,7 +73,9 @@ export default function FooterSection(props) {
                     <a href="tel://923122431234">+923122431234</a>
                   </li>
                   <li>
-                    <a href="mailto:info@mydomain.com">Sufyankamran171@gmail.com</a>
+                    <a href="mailto:info@mydomain.com">
+                      Sufyankamran171@gmail.com
+                    </a>
                   </li>
                 </ul>
 

@@ -9,7 +9,6 @@ import FooterSection from "../components/FooterSection";
 import FrameWork from "../components/FrameWork";
 import Projects from "../components/Projects";
 
-import Navbar from "../components/Navbar.js";
 
 function Home() {
   return (
