@@ -19,7 +19,6 @@ export default function AboutSection(props) {
               </p>
             </div>
           </div>
-
           <div className="row justify-content-center">
             <div className="col-lg-7 ">
               <p className="gsap-reveal-hero">
