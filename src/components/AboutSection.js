@@ -23,38 +23,37 @@ export default function AboutSection(props) {
           <div className="row justify-content-center">
             <div className="col-lg-7 ">
               <p className="gsap-reveal-hero">
-                I am a passionate Python Developer with hands-on experience in
-                building real-world automation systems, web scraping tools, REST
-                APIs, and full-stack web applications. Over the past year, I
-                have worked extensively with Python, Django, Selenium, Web
-                Automation, and data extraction pipelines—solving practical
-                problems for businesses and improving workflow efficiency
-                through automation.
+                I am a Python Developer and Software Engineer with a Bachelor’s
+                degree in Software Engineering and over 1 year of experience
+                creating automation solutions, web scraping tools, REST APIs,
+                and full-stack applications. I work with{" "}
+                <strong>
+                  Python, Django, Selenium, and modern web automation frameworks
+                </strong>{" "}
+                to deliver efficient, scalable solutions that optimize
+                workflows.
               </p>
 
               <p className="gsap-reveal-hero">
-                I enjoy transforming complex tasks into clean, efficient, and
-                scalable code. My work includes building Instagram and Twitter
-                automation bots, extracting large-scale data from platforms like
-                LinkedIn, YouTube, Nitter, and various eCommerce websites
-                including Amazon and Kroger. I have also used the YouTube API,
-                LinkedIn scraping logic, and custom browser automation to
-                streamline repetitive tasks.
+                I have built automation bots for social media platforms and
+                extracted, processed, and managed large-scale data from
+                LinkedIn, YouTube, Nitter, and eCommerce sites like Amazon and
+                Kroger, integrating APIs and custom automation to simplify
+                complex tasks.
               </p>
 
               <p className="gsap-reveal-hero">
-                Alongside backend development, I have experience building
-                user-friendly web interfaces in React and integrating frontend
-                apps with secure authentication systems using JWT, cookies, and
-                modern RESTful standards.
+                I also develop responsive, user-friendly interfaces with React,
+                integrating them with secure authentication systems using{" "}
+                <strong>JWT, cookies, and RESTful APIs</strong> to ensure
+                seamless frontend-backend interactions.
               </p>
 
               <p className="gsap-reveal-hero">
-                I am continuously learning advanced concepts in machine
-                learning, API design, and high-performance Python to grow into a
-                highly skilled AI & backend engineer. My goals are to contribute
-                to impactful software projects and build automation tools that
-                create real value.
+                Continuously improving my skills in machine learning, API
+                design, and high-performance Python, I aim to deliver impactful
+                software solutions and automation tools that create real value
+                for clients and businesses.
               </p>
 
               <p className="gsap-reveal-hero text-center">

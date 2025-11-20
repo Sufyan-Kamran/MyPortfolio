@@ -33,7 +33,7 @@ export default function ServicesSection(props) {
                 </div>
                 <h3 className="gsap-reveal-hero">Web Scraping</h3>
                 <p className="gsap-reveal-hero">
-                  I extract accurate, structured, and clean data from any website—including eCommerce, social media, marketplaces, and business directories—using Python, Selenium, and API scraping.
+                  I extract clean, reliable, and well-structured data from websites of any scale using Python, Selenium, and APIs. Ideal for eCommerce, social platforms, directories, and research workflows.
                 </p>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function ServicesSection(props) {
                 </div>
                 <h3 className="gsap-reveal-hero">Web Design</h3>
                 <p className="gsap-reveal-hero">
-                  I build modern, user-friendly, and responsive website layouts using HTML, CSS, Bootstrap, and React to create clean interfaces that match your brand.
+                  I design modern, responsive, and user-friendly website interfaces using HTML, CSS, Bootstrap, and React, ensuring your brand looks sharp on every device.
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function ServicesSection(props) {
                 </div>
                 <h3 className="gsap-reveal-hero">Bot Development</h3>
                 <p className="gsap-reveal-hero">
-                  I develop custom bots for automation, data collection, social media actions, and repetitive workflows—built using Python, Selenium, and API-based systems.
+                  I build custom automation bots for data extraction, social media tasks, and repetitive workflows using Python, Selenium, and API integrations.
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function ServicesSection(props) {
                 </div>
                 <h3 className="gsap-reveal-hero">Automation</h3>
                 <p className="gsap-reveal-hero">
-                  I automate manual business tasks such as data entry, reporting, account management, and scraping workflows to save time, reduce errors, and increase efficiency.
+                  I automate routine business tasks such as data entry, reporting, monitoring, and web scraping pipelines to save time and increase operational efficiency.
                 </p>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function ServicesSection(props) {
                 </div>
                 <h3 className="gsap-reveal-hero">Backend Development</h3>
                 <p className="gsap-reveal-hero">
-                  I create secure, efficient, and scalable backends using Python, Django, and REST APIs—complete with authentication, database models, and business logic.
+                  I develop secure and scalable backends with Python, Django, and REST APIs, including authentication, database architecture, and business logic.
                 </p>
               </div>
             </div>
@@ -122,7 +122,7 @@ export default function ServicesSection(props) {
                 </div>
                 <h3 className="gsap-reveal-hero">API Development & Integration</h3>
                 <p className="gsap-reveal-hero">
-                  I build robust REST APIs and integrate third-party APIs (Google, YouTube, LinkedIn, Amazon, etc.) to connect your app with external services and automate communication.
+                  I create reliable REST APIs and integrate third-party services (Google, YouTube, LinkedIn, Amazon, and more) to streamline data flow and automate processes.
                 </p>
               </div>
             </div>

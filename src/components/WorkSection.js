@@ -11,7 +11,7 @@ export default function WorkSection(props) {
                 <strong>Work Experience</strong>
               </h2>
               <p className="gsap-reveal-hero">
-                I bring hands-on experience across multiple real-world projects, and I’m ready to contribute my skills to your team — feel free to reach out.
+                My professional background across the companies and roles I have worked in.
               </p>
 
               <div className="wave gsap-reveal-hero">

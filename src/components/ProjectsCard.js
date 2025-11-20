@@ -1,4 +1,4 @@
-export default function ProjectsCard({src, skill,experience, paragrapgh, }){
+export default function ProjectsCard({src, skill,experience, paragraph, }){
 
     return (
         <>
@@ -15,7 +15,7 @@ export default function ProjectsCard({src, skill,experience, paragrapgh, }){
                   </div>
                   <blockquote>
                     <p className="text-start"  >
-                      {paragrapgh}
+                      {paragraph}
                     </p>
                   </blockquote>
                 </div>

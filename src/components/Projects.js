@@ -1,71 +1,3 @@
-// import ProjectsCard from "./ProjectsCard";
-
-// export default function Projects() {
-//   return (
-//     <>
-//       <div className="untree_co-section testimonial-wrap">
-//         <div className="container">
-//           <div className="row mb-5">
-//             <div className="col-lg-7 text-center mx-auto">
-//               <h2 className="section-heading gsap-reveal-hero mb-0">
-//                 <strong>Projects</strong>
-//               </h2>
-//               <p className="gsap-reveal-hero">Area of expertise...</p>
-
-//               <div className="wave gsap-reveal-hero mb-5">
-//                 <svg>
-//                   <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-//                 </svg>
-//               </div>
-//             </div>
-//           </div>
-
-          
-//                 <ProjectsCard 
-//                 src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" 
-//                 skill="Blogging Website with React & Django REST Framework" 
-//                 experience="HTML, CSS, React.js, Django REST Framework, JWT Authentication" 
-//                 paragrapgh="I built a full-stack blogging platform using React.js for the frontend and Django REST Framework for the backend, with JWT authentication for secure user login and access. Users can create, edit, and manage posts in a smooth, responsive interface. This project demonstrates modern web development practices and provides a scalable solution for content management."/>
-
-
-//             <ProjectsCard 
-//                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9SNf5Pw1uV7GxPm_MUmbwg-mOCql2cWlsLw&s" 
-//                 skill="Social Media Data Extractor Bots" 
-//                 experience="Python, Selenium, APIs, PostgreSQL" 
-//                 paragrapgh="I developed a Python-based bots using Selenium, API integration, and PostgreSQL to extract structured data from multiple social media platforms. The bot automates the collection of posts, likes, comments, and follower information, enabling efficient social media analysis. This tool helps marketers and analysts understand engagement trends and audience behavior, saving hours of manual work."/>
-
-//                 <ProjectsCard 
-//                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPLXqRyw5PEl4ETnuzYuP5XhUI51sUdQzcg&s" 
-//                 skill="Inventory Tracking Desktop Application" 
-//                 experience="Python Tkinter, MySQL, Pandas, Excel, Power BI" 
-//                 paragrapgh="I developed a desktop application using Python Tkinter, MySQL, Pandas, Excel, and Power BI to track inventory across three warehouses and monitor the location of packages in real-time. The system provides accurate inventory management, reporting, and visualization, helping businesses reduce errors and improve operational efficiency."/>  
-                
-//                 <ProjectsCard 
-//                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" 
-//                 skill="Amazon Product Extraction & Price Comparison Bot" 
-//                 experience="Python, Selenium, Requests, Google Sheets API" 
-//                 paragrapgh="I created a bot that scrapes products from Amazon, searches them on Google, and identifies the cheapest and most relevant offers using Python, Selenium, Requests, and Google Sheets. This project streamlines product research, helping users make data-driven decisions for online arbitrage and e-commerce sales. It significantly reduces manual effort in finding competitive prices."/>
-
-                
-
-//                 <ProjectsCard 
-//                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrvC-NeCYAj3IWCY5SIrGP5EjYYjzDXFQWw&s" 
-//                 skill="Yellow Pages Data Extraction & Structuring Tool" 
-//                 experience="Python, BeautifulSoup, MongoDB, Hashing" 
-//                 paragrapgh="I created a Python tool using BeautifulSoup and MongoDB to extract unstructured business data from the Yellow Pages website. The data is cleaned, structured, and stored efficiently, with a hash mechanism implemented to prevent duplicate entries. This tool enables businesses and analysts to access accurate, organized contact and business information for marketing or research purposes."/>  
-            
-//           <div data-aos="fade-left" data-aos-delay="200">
-//             <div className="owl-carousel owl-3-slider">
-            
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
-
 import { useState } from "react";
 import ProjectsCard from "./ProjectsCard";
 
@@ -74,37 +6,51 @@ export default function Projects(props) {
 
   // Example projects array
   const projects = [
-  {
-    src: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-    skill: "Blogging Website with React & Django REST Framework",
-    experience: "HTML, CSS, React.js, Django REST Framework, JWT Authentication",
-    paragrapgh: "I built a full-stack blogging platform using React.js for the frontend and Django REST Framework for the backend, with JWT authentication for secure user login and access. Users can create, edit, and manage posts in a smooth, responsive interface. This project demonstrates modern web development practices and provides a scalable solution for content management."
-  },
-  {
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9SNf5Pw1uV7GxPm_MUmbwg-mOCql2cWlsLw&s",
-    skill: "Social Media Data Extractor Bots",
-    experience: "Python, Selenium, APIs, PostgreSQL",
-    paragrapgh: "I developed a Python-based bots using Selenium, API integration, and PostgreSQL to extract structured data from multiple social media platforms. The bot automates the collection of posts, likes, comments, and follower information, enabling efficient social media analysis. This tool helps marketers and analysts understand engagement trends and audience behavior, saving hours of manual work."
-  },
-  {
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPLXqRyw5PEl4ETnuzYuP5XhUI51sUdQzcg&s",
-    skill: "Inventory Tracking Desktop Application",
-    experience: "Python Tkinter, MySQL, Pandas, Excel, Power BI",
-    paragrapgh: "I developed a desktop application using Python Tkinter, MySQL, Pandas, Excel, and Power BI to track inventory across three warehouses and monitor the location of packages in real-time. The system provides accurate inventory management, reporting, and visualization, helping businesses reduce errors and improve operational efficiency."
-  },
-  {
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
-    skill: "Amazon Product Extraction & Price Comparison Bot",
-    experience: "Python, Selenium, Requests, Google Sheets API",
-    paragrapgh: "I created a bot that scrapes products from Amazon, searches them on Google, and identifies the cheapest and most relevant offers using Python, Selenium, Requests, and Google Sheets. This project streamlines product research, helping users make data-driven decisions for online arbitrage and e-commerce sales. It significantly reduces manual effort in finding competitive prices."
-  },
-  {
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrvC-NeCYAj3IWCY5SIrGP5EjYYjzDXFQWw&s",
-    skill: "Yellow Pages Data Extraction & Structuring Tool",
-    experience: "Python, BeautifulSoup, MongoDB, Hashing",
-    paragrapgh: "I created a Python tool using BeautifulSoup and MongoDB to extract unstructured business data from the Yellow Pages website. The data is cleaned, structured, and stored efficiently, with a hash mechanism implemented to prevent duplicate entries. This tool enables businesses and analysts to access accurate, organized contact and business information for marketing or research purposes."
-  }
-];
+    {
+      src: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+      skill: "Blogging Platform",
+      experience:
+        "HTML, CSS, React.js, Django REST Framework, JWT Authentication",
+      paragraph:
+        "Developed a full-stack blogging platform with React.js frontend and Django REST Framework backend, implementing JWT authentication for secure user access. Users can create, edit, and manage posts through a responsive, intuitive interface. This project showcases modern web development practices and a scalable content management solution.",
+    },
+    {
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
+      skill: "Social Media Data Extraction & Analytics Bot for MeykaAi",
+      experience: "Python, Selenium, APIs, PostgreSQL",
+      paragraph:
+        "Developed automated data-extraction bots for MeykaAI to support their stock-analysis chatbot. The bots gather structured data from multiple social media platforms, such as posts, engagement metrics, follower insights and store it in PostgreSQL for further analysis. This automated pipeline strengthens MeykaAI’s recommendation engine and significantly reduces the need for manual research.",
+    },
+    {
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9SNf5Pw1uV7GxPm_MUmbwg-mOCql2cWlsLw&s",
+      skill: "Recipe & Nutrition Recommendation Bot for Cybveigt ",
+      experience: "Python, Selenium, BeautifulSoup, Pandas, APIs, PostgreSQL",
+      paragraph:
+        "Developed a Python-based bot that extracts recipes, nutritional information, and dietary data from multiple websites. The system processes and organizes this data to suggest healthy meal plans and recommend the best recipes based on user preferences. This project provides a data-driven solution for personalized nutrition, helping users make informed dietary choices efficiently.",
+    },
+    {
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPLXqRyw5PEl4ETnuzYuP5XhUI51sUdQzcg&s",
+      skill: "Inventory Tracking Software for Indus Motors (Toyota)",
+      experience: "Python Tkinter, MySQL, Pandas, Excel, Power BI",
+      paragraph:
+        "Built a desktop application from scratch to track shippement and inventory across multiple warehouses, monitor package locations in real-time, and generate reports with visual analytics. This system improves inventory accuracy, reduces operational errors, and enables businesses to make informed decisions efficiently.",
+    },
+    {
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png",
+      skill: "Amazon Product Extraction & Price Comparison Bot for NestElevate",
+      experience: "Python, Selenium, Requests, Google Sheets API",
+      paragraph:
+        "Developed an automated bot that scrapes products from Amazon, searches them on Google, and identifies the most relevant and competitive offers. This solution streamlines product research for e-commerce and online arbitrage, enabling users to make faster, data-driven pricing decisions while minimizing manual effort.",
+    },
+
+    {
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrvC-NeCYAj3IWCY5SIrGP5EjYYjzDXFQWw&s",
+      skill: "Yellow Pages Data Extraction & Structuring Tool",
+      experience: "Python, BeautifulSoup, MongoDB, Hashing",
+      paragraph:
+        "Created a Python-based tool to extract, clean, and structure unorganized business data from Yellow Pages. Implemented hashing to prevent duplicates and store information efficiently in MongoDB. This tool provides businesses and analysts with reliable, organized contact data for marketing, research, and decision-making purposes.",
+    },
+  ];
 
   // Show first 32 projects unless "showAll" is true
   const displayedProjects = showAll ? projects : projects.slice(0, 1);
@@ -117,7 +63,7 @@ export default function Projects(props) {
             <h2 className="section-heading gsap-reveal-hero mb-0">
               <strong>Projects</strong>
             </h2>
-            <p className="gsap-reveal-hero">Area of expertise...</p>
+            <p className="gsap-reveal-hero">What I Build & My Expertise</p>
 
             <div className="wave gsap-reveal-hero mb-5">
               <svg>
@@ -135,7 +81,7 @@ export default function Projects(props) {
               src={project.src}
               skill={project.skill}
               experience={project.experience}
-              paragrapgh={project.paragrapgh}
+              paragraph={project.paragraph}
             />
           ))}
         </div>
