@@ -2,7 +2,7 @@ export default function SkillsCard({src, skill,experience, paragrapgh }){
 
     return (
         <>
-            <div className="item">
+            <div className="item bg-white">
                 <div className="testimonial-v1">
                   <img
                     src={src}

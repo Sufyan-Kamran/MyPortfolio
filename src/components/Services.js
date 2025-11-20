@@ -31,7 +31,7 @@ export default function ServicesSection(props) {
                     />
                   </span>
                 </div>
-                <h3 className="gsap-reveal-hero">Web Scrapping</h3>
+                <h3 className="gsap-reveal-hero">Web Scraping</h3>
                 <p className="gsap-reveal-hero">
                   I extract accurate, structured, and clean data from any website—including eCommerce, social media, marketplaces, and business directories—using Python, Selenium, and API scraping.
                 </p>
@@ -66,7 +66,7 @@ export default function ServicesSection(props) {
                     />
                   </span>
                 </div>
-                <h3 className="gsap-reveal-hero">Bot Developement</h3>
+                <h3 className="gsap-reveal-hero">Bot Development</h3>
                 <p className="gsap-reveal-hero">
                   I develop custom bots for automation, data collection, social media actions, and repetitive workflows—built using Python, Selenium, and API-based systems.
                 </p>
@@ -102,7 +102,7 @@ export default function ServicesSection(props) {
                     />
                   </span>
                 </div>
-                <h3 className="gsap-reveal-hero">Backend developement</h3>
+                <h3 className="gsap-reveal-hero">Backend Development</h3>
                 <p className="gsap-reveal-hero">
                   I create secure, efficient, and scalable backends using Python, Django, and REST APIs—complete with authentication, database models, and business logic.
                 </p>
@@ -120,7 +120,7 @@ export default function ServicesSection(props) {
                     />
                   </span>
                 </div>
-                <h3 className="gsap-reveal-hero">API Developement & Integration</h3>
+                <h3 className="gsap-reveal-hero">API Development & Integration</h3>
                 <p className="gsap-reveal-hero">
                   I build robust REST APIs and integrate third-party APIs (Google, YouTube, LinkedIn, Amazon, etc.) to connect your app with external services and automate communication.
                 </p>

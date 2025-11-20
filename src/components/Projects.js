@@ -128,7 +128,7 @@ export default function Projects(props) {
         </div>
 
         {/* Render Projects */}
-        <div className="projects-grid">
+        <div className="projects-grid bg-white">
           {displayedProjects.map((project, index) => (
             <ProjectsCard
               key={index}

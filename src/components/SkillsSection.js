@@ -9,8 +9,7 @@ export default function SkillsSection(props) {
                 <strong>My Skillset</strong>
               </h2>
               <p className="gsap-reveal-hero">
-                The Big Oxmox advised her not to do so, because there were
-                thousands of bad Commas.
+                Turning ideas into scalable, efficient, and automated software solutions.
               </p>
               <div className="wave gsap-reveal-hero">
                 <svg>

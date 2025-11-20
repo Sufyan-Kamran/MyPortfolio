@@ -5,20 +5,20 @@ export default function HeroSection(props) {
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-md-7">
-              <h4 className="gsap-reveal-hero mb-3"> {props.heading_1 || "Portfolio"}</h4>
+              <h4 className="gsap-reveal-hero mb-3"> Portfolio</h4>
               <h1 className="heading gsap-reveal-hero mb-3">
-                <strong>
-                  <span className="text-primary">{props.heading_2 || "Sufyan A."}</span>
+                <strong>Sufyan Ahmed
+                  <span className="text-primary">.</span>
                 </strong>
               </h1>
-              <h4 className="gsap-reveal-hero mb-3 text-dark">
-                <strong>{props.heading_3 ||"Software Engineer"}</strong>
+              <h4 className="gsap-reveal-hero mb-3 " style={{"color":"#9b9b9b"}}>
+                Software Engineer
               </h4>
-              <h2 className="subheading gsap-reveal-hero mb-4">
-                {props.heading_4 || "I’m a Software Engineer and Python Developer who builds smart, scalable, and automation-driven solutions, turning data, code, and creativity into real results."}
-              </h2>
+              <p className="subheading gsap-reveal-hero mb-4 bg-white">
+                I build smart, scalable, and automation-driven solutions to solve real-world problems.
+              </p>
               <p className="gsap-reveal-hero">
-                <a href="/Sufyan_Ahmed_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline-black" download>
+                <a href="/MyPortfolio/Sufyan_Ahmed_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline-black" download>
                   Download My Resume
                 </a>
               </p>
