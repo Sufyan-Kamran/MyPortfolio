@@ -6,7 +6,7 @@ export default function AboutSection(props) {
       <div className="container bg-light">
         <div className="row justify-content-center mb-3">
           <div className="col-lg-7 mx-auto text-center author-wrap">
-            <img src="https://media.licdn.com/dms/image/v2/D4D03AQHUS6VEIsrqrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718168046046?e=1764806400&v=beta&t=jFupm6q5B4OIdC5qUWV053IuGQOQTx_1Zv1o1VoEGNE" alt="Image" className="img-fluid rounded-circle mb-3"  style={{ width: "180px" }}/>
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQHUS6VEIsrqrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718168046046?e=1764806400&v=beta&t=jFupm6q5B4OIdC5qUWV053IuGQOQTx_1Zv1o1VoEGNE" alt="" className="img-fluid rounded-circle mb-3"  style={{ width: "180px" }} />
             <h3 className="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Sufyan Ahmed</h3>
             <p className="gsap-reveal-hero">Jr Python Developer & Software Engineer</p>
           </div>
