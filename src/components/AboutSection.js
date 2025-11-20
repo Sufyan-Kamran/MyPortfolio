@@ -2,7 +2,7 @@ export default function AboutSection(props) {
   return (
     <>
 
-        <div className="untree_co-section pb-0" id="about-section">
+        <div className="untree_co-section pb-0" id={props.id}>
       <div className="container bg-light">
         <div className="row justify-content-center mb-3">
           <div className="col-lg-7 mx-auto text-center author-wrap">
