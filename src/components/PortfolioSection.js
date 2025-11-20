@@ -45,7 +45,7 @@ export default function PortfolioSection(props) {
               />
 
               <ImageComponent
-                src="images/Blogging.png"
+                src="images/Blogging.PNG"
                 heading="Blogging Website"
                 paragraph="Concept Web Design"
               />
@@ -62,12 +62,12 @@ export default function PortfolioSection(props) {
               />
 
               <ImageComponent
-                src="images/spacex.png"
+                src="images/spacex.PNG"
                 heading="LuxeLane"
                 paragraph="sorr"
               />
               <ImageComponent
-                src="images/GAME2.png"
+                src="images/Game2.PNG"
                 heading="LuxeLane"
                 paragraph="sorr"
               />
@@ -84,7 +84,7 @@ export default function PortfolioSection(props) {
               />
 
               <ImageComponent
-                src="images/apple1.png"
+                src="images/apple1.PNG"
                 heading="Apple Watch"
                 paragraph="Concept Web Design"
               />
