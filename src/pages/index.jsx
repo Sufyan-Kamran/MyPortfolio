@@ -8,7 +8,6 @@ import WorkSection from "../components/WorkSection";
 import FooterSection from "../components/FooterSection";
 import FrameWork from "../components/FrameWork";
 import Projects from "../components/Projects";
-import Technologies from "../components/TechnologiesSection";
 
 
 function Home() {
@@ -23,7 +22,6 @@ function Home() {
       <SkillsSection id="SkillsSection" />
       <OtherSkills id="OtherSkills" />
       <FrameWork id="FrameWork" />
-      <Technologies id="Technologies"/>
       <FooterSection id="FooterSection" />
     </>
   );
