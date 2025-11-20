@@ -1,8 +1,9 @@
 {
+  
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sufyan-Kamran.github.io/MyPortfolio",
+  "homepage": "https://sufyan-kamran.github.io/MyPortfolio/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
