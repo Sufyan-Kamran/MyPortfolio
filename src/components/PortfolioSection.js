@@ -20,73 +20,73 @@ export default function PortfolioSection(props) {
               <ImageComponent
                 src="images/luxelane1.jpg"
                 heading="LuxeLane Shop"
-                paragraph="Ecommerce Website"
+                paragraph="A full eCommerce website I built for a fashion brand, allowing them to sell products online and scale their revenue."
               />
               <ImageComponent
                 src="images/apple.png"
-                heading="Music Website"
-                paragraph="Web Design"
+                heading="Apple Watch Store (Concept)"
+                paragraph="A custom landing page concept I designed and developed for showcasing the Apple Watch."
               />
               <ImageComponent
                 src="images/fashion.jpg"
-                heading="Clothing Website"
-                paragraph="Ecommerce Website"
+                heading="Fashion Ecommerece Store"
+                paragraph="A complete fashion store I created from scratch, built to help the business reach more customers and increase online sales"
               />
               <ImageComponent
                 src="images/business.jpg"
-                heading="Business Portfolio"
-                paragraph="Web Design"
+                heading="Company Portofolio Single Page Website"
+                paragraph="A clean, single-page portfolio site I developed for a company to build trust and improve their online presence."
               />
 
               <ImageComponent
                 src="images/sound.png"
-                heading="Apple Watch"
-                paragraph="Concept Web Design"
+                heading="Online Music Streaming Website"
+                paragraph="A music streaming website I built that lets users listen online, create playlists, and stream tracks."
               />
 
               <ImageComponent
                 src="images/Blogging.PNG"
                 heading="Blogging Website"
-                paragraph="Concept Web Design"
+                paragraph="A simple, clean blogging website I designed and developed. Backend built with a REST API and JWT authentication."
               />
 
               <ImageComponent
                 src="images/interior.jpg"
-                heading="Interior Decor Web"
-                paragraph="Ecommerce Website"
+                heading="Interior Decor Store"
+                paragraph="An eCommerce website I built for an interior décor brand to showcase and sell their products."
               />
               <ImageComponent
                 src="images/tesla.PNG"
                 heading="Car Showroom Website"
-                paragraph="Concept Web Design"
+                paragraph="A full website I built for a car showroom to present their vehicles and services."
               />
 
               <ImageComponent
                 src="images/spacex.PNG"
-                heading="LuxeLane"
-                paragraph="sorr"
+                heading="SpaceX Inspired Web Concept"
+                paragraph="A fun UI concept I designed inspired by the SpaceX website style."
               />
               <ImageComponent
                 src="images/Game2.PNG"
-                heading="LuxeLane"
-                paragraph="sorr"
+                heading="Gaming Store Website"
+                paragraph="A complete eCommerce interface I developed for a gaming products store."
               />
               <ImageComponent
                 src="images/Portfolio.PNG"
-                heading="Portfolio Design"
-                paragraph="Static Website"
+                heading="Personal Portfolio Website"
+                paragraph="A static portfolio website I created to highlight my work and skills."
               />
 
               <ImageComponent
                 src="images/game.jpg"
                 heading="Gaming Store"
-                paragraph="Ecommerce Concept Web"
+                paragraph="An eCommerce concept site I built for selling gaming accessories and products."
               />
 
               <ImageComponent
                 src="images/apple1.PNG"
-                heading="Apple Watch"
-                paragraph="Concept Web Design"
+                heading="Online Watch Store (Concept)"
+                paragraph="A modern concept landing page I designed and built for an online watch store."
               />
             </div>
           </div>
